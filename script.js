@@ -10,6 +10,8 @@ const WINNING_COMBINATIONS = [
   [0, 4, 8],
   [2, 4, 6]
 ]
+const cellElements = document.querySelectorAll('[data-cell]')
+const board = document.getElementById('board')
 const winningMessageElement = document.getElementById('winningMessage')
 const restartButton = document.getElementById('restartButton')
 const winningMessageTextElement = document.querySelector('[data-winning-message-text]')
