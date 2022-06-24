@@ -1,5 +1,4 @@
-const X_CLASS = 'x'
-const CIRCLE_CLASS = 'circle'
+
 const cellElements = document.querySelectorAll('[data-cell]')
 const board = document.getElementById('board')
 const winningMessageElement = document.getElementById('winningMessage')
